@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        headerBgColor: '#FFFBF0',
+                        itemBgColor: '#F1F1F1',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header class="bg-headerBgColor">
+        <div class="grid grid-cols-1 sm:grid-cols-2 banner-section container mx-auto p-10 mb-10">
+            <div class="banner-text flex flex-col justify-center">
+                <div class="space-y-3">
+                    <h1 class="text-5xl font-semibold uppercase"><span class="text-yellow-400">Be the
+                            Penguins</span><br> of
+                        Winter
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit cum
+                        error iste
+                        sed, nam ducimus!</p>
+                    <button class="bg-lime-600 px-5 py-3 text-white rounded-md">BUY NOW</button>
+                </div>
+            </div>
+            <div class="banner-img pt-8 sm:pt-0">
+                <img src="./images/./model.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- women jacket section -->
+        <section class="woman-jacket-section container mx-auto py-10">
+            <div class="woman-jacket-section-tittle mb-4 uppercase text-3xl ml-5">Woman Jacket</div>
+            <div
+                class="woman-jacket-section-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div class="woman-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-1.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+                <div class="woman-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-2.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+                <div class="woman-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-3.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- men jacket section -->
+        <section class="man-jacket-section container mx-auto py-10">
+            <div class="man-jacket-section-tittle mb-4 uppercase text-3xl ml-5">Man Jacket</div>
+            <div class="man-jacket-section-content grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-7">
+                <div class="man-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-4.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+                <div class="man-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-5.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+                <div class="man-jacket-item space-y-3 p-7 shadow-md">
+                    <div class="img-div bg-itemBgColor p-4 rounded-lg">
+                        <img class="h-48 block mx-auto" src="./images/jacket-6.png" alt="">
+                    </div>
+                    <h1 class="text-2xl font-bold">Yellow Coat Jacket </h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit nulla cumque sunt
+                        rerum?</p>
+                    <div class="price-div flex justify-between items-center">
+                        <span class="text-yellow-500 text-4xl font-bold">$234</span>
+                        <button class="bg-lime-600 px-4 py-2 text-white rounded-md text-lg">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- shopping section -->
+
+        <section class="shopping-section container mx-auto my-20">
+            <div class="shopping-content grid grid-cols-1 sm:grid-cols-2 gap-7">
+                <div class="shopping-text flex flex-col justify-center space-y-6">
+                    <!-- shppoing item one  -->
+                    <div class="shopping-item-one grid grid-cols-12 px-3 py-5 shadow-lg">
+                        <div class="shopping-item-img col-span-2">
+                            <img class="w-12 block mx-auto" src="./images/house.png" alt="">
+                        </div>
+                        <div class="shopping-item-text col-span-10 ml-5 sm:ml-0">
+                            <h3 class="text-xl font-semibold">Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <!-- shppoing item two  -->
+                    <div class="shopping-item-two grid grid-cols-12 px-3 py-5 shadow-lg">
+                        <div class="shopping-item-img col-span-2">
+                            <img class="w-12 block mx-auto" src="./images/house.png" alt="">
+                        </div>
+                        <div class="shopping-item-text col-span-10 ml-5 sm:ml-0">
+                            <h3 class="text-xl font-semibold">Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <!-- shppoing item three  -->
+                    <div class="shopping-item-three grid grid-cols-12 px-3 py-5 shadow-lg">
+                        <div class="shopping-item-img col-span-2">
+                            <img class="w-12 block mx-auto" src="./images/house.png" alt="">
+                        </div>
+                        <div class="shopping-item-text col-span-10 ml-5 sm:ml-0">
+                            <h3 class="text-xl font-semibold">Find the Perfect Fit</h3>
+                            <p>Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping-img">
+                    <img class="w-full" src="./images/./shopping.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
